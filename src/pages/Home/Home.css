@@ -1,0 +1,39 @@
+.home-container{
+    /* border: 1px solid black; */
+    height: 600px;
+    animation: pulse 1.5s infinite; 
+    padding: 1.5rem;
+    /* background-image: url('home.gif');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+    
+
+    
+.user-img{
+    width: 250px;
+    margin: 0 0 0.5rem 0;
+    border: 1px solid;
+    border-radius: 5%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.home-items-container{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr ;
+}
+.title-main{
+    padding: 2rem;
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+    
+}
+.persona{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}

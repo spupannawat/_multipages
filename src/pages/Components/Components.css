@@ -1,0 +1,20 @@
+.components-container{
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: auto;
+    box-shadow: 0 0 0.25rem gray;
+    animation: pulse 2s infinite;
+}
+
+.components-items{
+    display: grid;
+    grid-template-columns:2fr 6fr;
+    gap: 1rem;   
+}
+
+.components-temperatures{
+    display: grid;
+    grid-template-columns: 300fr 1fr;
+    margin-top: 1rem;
+}
